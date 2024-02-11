@@ -1,0 +1,22 @@
+h1 {
+    color:brown;
+  }
+p  {
+    background-color: #00FF00;
+  }
+  ul {
+background-color: yellow;
+color: #FF0000;
+  }
+  body {
+    background-color: #FF0000;
+  }
+  a {
+    color:red
+  }
+  a:hover {
+    color:yellow;
+  }
+  a:visited {
+    color:green;
+  }
