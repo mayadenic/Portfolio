@@ -11,12 +11,17 @@ color: #FF0000;
   body {
     background-color: #FF0000;
   }
+
   a {
     color:red
-  }
-  a:hover {
-    color:yellow;
   }
   a:visited {
     color:green;
   }
+  a:hover {
+    color:yellow;
+  }
+  header {
+    background-color: papayawhip;
+  }
+  
