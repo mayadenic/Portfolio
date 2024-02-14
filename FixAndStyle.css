@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+}
+a:link {
+    color: green;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+color: red;
+text-decoration: underline;
+}
+.purple {
+    background-color: purple;
+}
+h2 {
+    color: blue;
+}
+h3 {
+    color: black;
+    background-color: yellow;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+h4 {
+    color: yellow;
+    background-color: green;
+}
+.green {
+    background-color: greenyellow;
+}
+h5 {
+    color: red;
+}
+.yellow {
+    background-color: yellow;
+}
