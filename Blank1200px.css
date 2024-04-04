@@ -1,0 +1,80 @@
+body {
+  background-color: #90E0EF;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #90E0EF;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+h1 {
+  grid-column: span 12;
+  background-color: #CAF0F8;
+  color: #26BFDE;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 140px;
+  
+}
+nav {
+  grid-column: span 12;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 64px;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-column-gap: 48px;
+}
+nav li a {
+  display: block;
+  color: #03045E;
+  background-color: #00B4D8;
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+  nav li a:hover {
+background-color: #0077B6;
+}
+
+
+main {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  color: #03045E;
+}
+.Welcome {
+  grid-column: span 3;
+}
+section img {
+  width: 300px;
+  height: 337px;
+  object-fit: cover;
+  column-span: 12;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 64px;
+  color: #03045E;
+  text-align: center;
+}
+section p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 40px;
+  text-align: center;
+  color: #03045E;
+  column-span: 12;
+}
+
