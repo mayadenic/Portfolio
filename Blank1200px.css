@@ -1,5 +1,6 @@
 body {
   background-color: #90E0EF;
+  font-family: "Feneon Single 14";
 }
 
 #wrapper {
@@ -16,13 +17,14 @@ h1 {
   background-color: #CAF0F8;
   color: #26BFDE;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 140px;
+  letter-spacing:5px;
   
 }
 nav {
   grid-column: span 12;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 64px;
 }
 nav ul {
@@ -65,16 +67,26 @@ section img {
   column-span: 12;
 }
 h2{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 64px;
   color: #03045E;
   text-align: center;
 }
 section p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family: "Kalam", cursive;
   font-size: 40px;
   text-align: center;
   color: #03045E;
   column-span: 12;
+  margin-right: auto;
+}
+.pixelify-sans-<uniquifier {
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.kalam-light {
+  font-weight: 300;
+  font-style: normal;
 }
 
