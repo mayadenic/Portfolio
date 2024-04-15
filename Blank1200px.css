@@ -92,4 +92,18 @@ section p {
   font-weight: 300;
   font-style: normal;
 }
-
+#myCarousel {
+  margin-bottom: 24px;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  width: 500px;
+}
+#myCarousel img {
+  width: 320px;
+  height: 337px;
+}
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #90E0EF;
+}
