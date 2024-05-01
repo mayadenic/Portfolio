@@ -86,7 +86,7 @@ section {
   text-align: center;
 }
 .lists {
-  font-family: "Kalam", cursive;
+  font-family: "Comic Neue", cursive;
   font-size: 30px;
   text-align: center;
   color: #03045E;
@@ -112,16 +112,27 @@ h3 {
   text-align: center;
 }
 section p {
-  font-family: "Kalam", cursive;
+  font-family: "Comic Neue", cursive;
   font-size: 40px;
   color: #03045E;
+}
+.Gallery {
+  grid-column: span 3;
+}
+.Gallery img {
+  display: block;
+  width: 300px;
+  height: 337px;
+  object-fit: cover;
+  display: inline-block;
 }
 .pixelify-sans-<uniquifier {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-.kalam-light {
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
   font-weight: 300;
   font-style: normal;
 }
