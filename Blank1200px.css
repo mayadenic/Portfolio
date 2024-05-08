@@ -17,11 +17,10 @@ h1 {
   background-color: #CAF0F8;
   text: #26BFDE;
   text-align: center;
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Rubik Pixels", system-ui;
   font-size: 140px;
   letter-spacing:5px;
   margin: 20px;
-  font-weight: bold;
   text-shadow: 5px 5px 5px #000;
 }
 h1 a{
@@ -35,7 +34,7 @@ h1 a:hover {
 nav {
   grid-column-start: 2;
   grid-column-end: 12;
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Rubik Pixels", system-ui;
   font-size: 50px;
 }
 nav ul {
@@ -100,13 +99,13 @@ section {
   grid-column: span 12;
 }
 h2{
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Rubik Pixels", system-ui;
   font-size: 64px;
   color: #03045E;
   text-align: center;
 }
 h3 {
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Rubik Pixels", system-ui;
   font-size: 64px;
   color: #03045E;
   text-align: center;
@@ -126,11 +125,12 @@ section p {
   object-fit: cover;
   display: inline-block;
 }
-.pixelify-sans-<uniquifier {
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+.rubik-pixels-regular {
+  font-family: "Rubik Pixels", system-ui;
+  font-weight: 400;
   font-style: normal;
 }
+
 .comic-neue-light {
   font-family: "Comic Neue", cursive;
   font-weight: 300;
